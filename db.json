@@ -1,0 +1,10 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@lendsqr.com",
+      "password": "admin123", 
+      "role": "admin"
+    }
+  ]
+}
