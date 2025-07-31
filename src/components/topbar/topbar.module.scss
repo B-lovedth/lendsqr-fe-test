@@ -8,23 +8,30 @@
   position: sticky;
   top: 0;
   z-index: 40;
-}
 
+  
 .left {
   font-weight: bold;
   font-size: 1.25rem;
 }
-
-.center {
-  flex: 1;
-  max-width: 500px;
-  margin: 0 2rem;
+.center{
+  display:none;
 }
 
-.right {
-  display: flex;
-  align-items: center;
-  gap: 1.25rem;
+
+.right{
+display:none
+}
+.menuButton {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.6rem;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+
 }
 
 .docs {
@@ -34,4 +41,20 @@
   &:hover {
     color: #1a73e8;
   }
+
+
+@media(min-width:960px){
+  .center {
+  flex: 1;
+  max-width: 500px;
+  margin: 0 2rem;
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+}
+}
 }
