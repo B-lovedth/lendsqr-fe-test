@@ -1,0 +1,73 @@
+.mobileSidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100vh;
+  background: white;
+  z-index: 2000;
+  padding: 1rem;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  transform: translateX(0);
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.close {
+  margin-left: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #444;
+  cursor: pointer;
+}
+
+.section {
+  margin-top: 1.5rem;
+
+  h4 {
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+    color: #666;
+  }
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 0;
+  font-size: 15px;
+  text-decoration: none;
+  color: #333;
+  transition: 0.2s ease;
+
+  &:hover {
+    color: #39cdcc;
+  }
+}
+
+.active {
+  color: #39cdcc;
+  font-weight: 600;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+}
