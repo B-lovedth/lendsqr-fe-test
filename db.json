@@ -3,8 +3,2260 @@
     {
       "id": 1,
       "email": "admin@lendsqr.com",
-      "password": "admin123", 
+      "password": "admin123",
       "role": "admin"
+    }
+  ],
+  "userDetails": [
+    {
+      "id": "1",
+      "username": "Grace Effiom",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "grace@gmail.com",
+      "phoneNumber": "07060780922",
+      "status": "Blacklisted",
+      "bvn": "07060780922",
+      "gender": "Female",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Parent's Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "B.Sc",
+        "status": "Employed",
+        "sector": "FinTech",
+        "duration": "2 years",
+        "income": "₦200,000.00 - ₦400,000.00",
+        "repayment": "40,000",
+        "officeEmail": "grace@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@grace_effiom",
+        "facebook": "Grace Effiom",
+        "instagram": "@grace_effiom"
+      },
+      "guarantors": [
+        {
+          "name": "Debby Ogana",
+          "email": "debby@gmail.com",
+          "phoneNumber": "07060780922",
+          "relationship": "Sister"
+        },
+        {
+          "name": "Debby Ogana",
+          "email": "debby@gmail.com",
+          "phoneNumber": "07060780922",
+          "relationship": "Sister"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "username": "John Doe",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "john.doe@gmail.com",
+      "phoneNumber": "08012345678",
+      "status": "Blacklisted",
+      "bvn": "08012345678",
+      "gender": "Male",
+      "maritalStatus": "Married",
+      "children": "2",
+      "residence": "Own Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "M.Sc",
+        "status": "Employed",
+        "sector": "Banking",
+        "duration": "5 years",
+        "income": "₦400,000.00 - ₦600,000.00",
+        "repayment": "60,000",
+        "officeEmail": "john@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@john_doe",
+        "facebook": "John Doe",
+        "instagram": "@john_doe"
+      },
+      "guarantors": [
+        {
+          "name": "Jane Doe",
+          "email": "jane@gmail.com",
+          "phoneNumber": "08087654321",
+          "relationship": "Wife"
+        },
+        {
+          "name": "Mike Doe",
+          "email": "mike@gmail.com",
+          "phoneNumber": "08023456789",
+          "relationship": "Brother"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "username": "Sarah Johnson",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "sarah.johnson@gmail.com",
+      "phoneNumber": "08123456789",
+      "status": "Active",
+      "bvn": "08123456789",
+      "gender": "Female",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Rented Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "B.Sc",
+        "status": "Unemployed",
+        "sector": "Education",
+        "duration": "1 year",
+        "income": "₦100,000.00 - ₦200,000.00",
+        "repayment": "10,000",
+        "officeEmail": "sarah@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@sarah_johnson",
+        "facebook": "Sarah Johnson",
+        "instagram": "@sarah_johnson"
+      },
+      "guarantors": [
+        {
+          "name": "Emily Johnson",
+          "email": "emily@gmail.com",
+          "phoneNumber": "08198765432",
+          "relationship": "Sister"
+        },
+        {
+          "name": "Paul Johnson",
+          "email": "paul@gmail.com",
+          "phoneNumber": "08134567890",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "username": "Michael Smith",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "michael.smith@gmail.com",
+      "phoneNumber": "09012345678",
+      "status": "Active",
+      "bvn": "09012345678",
+      "gender": "Male",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Parent's Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "OND",
+        "status": "Employed",
+        "sector": "Retail",
+        "duration": "3 years",
+        "income": "₦150,000.00 - ₦250,000.00",
+        "repayment": "20,000",
+        "officeEmail": "michael@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@michael_smith",
+        "facebook": "Michael Smith",
+        "instagram": "@michael_smith"
+      },
+      "guarantors": [
+        {
+          "name": "Anna Smith",
+          "email": "anna@gmail.com",
+          "phoneNumber": "09087654321",
+          "relationship": "Mother"
+        },
+        {
+          "name": "David Smith",
+          "email": "david@gmail.com",
+          "phoneNumber": "09023456789",
+          "relationship": "Brother"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "username": "Linda Brown",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "linda.brown@gmail.com",
+      "phoneNumber": "07011223344",
+      "status": "Active",
+      "bvn": "07011223344",
+      "gender": "Female",
+      "maritalStatus": "Married",
+      "children": "1",
+      "residence": "Own Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "HND",
+        "status": "Employed",
+        "sector": "Healthcare",
+        "duration": "4 years",
+        "income": "₦300,000.00 - ₦500,000.00",
+        "repayment": "30,000",
+        "officeEmail": "linda@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@linda_brown",
+        "facebook": "Linda Brown",
+        "instagram": "@linda_brown"
+      },
+      "guarantors": [
+        {
+          "name": "Peter Brown",
+          "email": "peter@gmail.com",
+          "phoneNumber": "07044332211",
+          "relationship": "Husband"
+        },
+        {
+          "name": "Mary Brown",
+          "email": "mary@gmail.com",
+          "phoneNumber": "07055667788",
+          "relationship": "Mother"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "username": "David Wilson",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "david.wilson@gmail.com",
+      "phoneNumber": "08099887766",
+      "status": "Inactive",
+      "bvn": "08099887766",
+      "gender": "Male",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Rented Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "B.Sc",
+        "status": "Employed",
+        "sector": "IT",
+        "duration": "2 years",
+        "income": "₦250,000.00 - ₦350,000.00",
+        "repayment": "25,000",
+        "officeEmail": "david@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@david_wilson",
+        "facebook": "David Wilson",
+        "instagram": "@david_wilson"
+      },
+      "guarantors": [
+        {
+          "name": "Lucy Wilson",
+          "email": "lucy@gmail.com",
+          "phoneNumber": "08066778899",
+          "relationship": "Sister"
+        },
+        {
+          "name": "Mark Wilson",
+          "email": "mark@gmail.com",
+          "phoneNumber": "08077889900",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "username": "Jessica Lee",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "jessica.lee@gmail.com",
+      "phoneNumber": "08112233445",
+      "status": "Pending",
+      "bvn": "08112233445",
+      "gender": "Female",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Parent's Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "B.Sc",
+        "status": "Student",
+        "sector": "Education",
+        "duration": "3 years",
+        "income": "₦50,000.00 - ₦100,000.00",
+        "repayment": "5,000",
+        "officeEmail": "jessica@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@jessica_lee",
+        "facebook": "Jessica Lee",
+        "instagram": "@jessica_lee"
+      },
+      "guarantors": [
+        {
+          "name": "Tom Lee",
+          "email": "tom@gmail.com",
+          "phoneNumber": "08155667788",
+          "relationship": "Father"
+        },
+        {
+          "name": "Lisa Lee",
+          "email": "lisa@gmail.com",
+          "phoneNumber": "08166778899",
+          "relationship": "Mother"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "username": "Chris Evans",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "chris.evans@gmail.com",
+      "phoneNumber": "09022334455",
+      "status": "Blacklisted",
+      "bvn": "09022334455",
+      "gender": "Male",
+      "maritalStatus": "Married",
+      "children": "3",
+      "residence": "Own Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "M.Sc",
+        "status": "Employed",
+        "sector": "Engineering",
+        "duration": "6 years",
+        "income": "₦600,000.00 - ₦800,000.00",
+        "repayment": "80,000",
+        "officeEmail": "chris@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@chris_evans",
+        "facebook": "Chris Evans",
+        "instagram": "@chris_evans"
+      },
+      "guarantors": [
+        {
+          "name": "Emma Evans",
+          "email": "emma@gmail.com",
+          "phoneNumber": "09055667788",
+          "relationship": "Wife"
+        },
+        {
+          "name": "Paul Evans",
+          "email": "paul.evans@gmail.com",
+          "phoneNumber": "09066778899",
+          "relationship": "Brother"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "username": "Emily Clark",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "emily.clark@gmail.com",
+      "phoneNumber": "07033445566",
+      "status": "Blacklisted",
+      "bvn": "07033445566",
+      "gender": "Female",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Rented Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "B.Sc",
+        "status": "Employed",
+        "sector": "Marketing",
+        "duration": "2 years",
+        "income": "₦200,000.00 - ₦300,000.00",
+        "repayment": "20,000",
+        "officeEmail": "emily@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@emily_clark",
+        "facebook": "Emily Clark",
+        "instagram": "@emily_clark"
+      },
+      "guarantors": [
+        {
+          "name": "Sophie Clark",
+          "email": "sophie@gmail.com",
+          "phoneNumber": "07077889900",
+          "relationship": "Sister"
+        },
+        {
+          "name": "James Clark",
+          "email": "james@gmail.com",
+          "phoneNumber": "07088990011",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "username": "Daniel King",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "daniel.king@gmail.com",
+      "phoneNumber": "08044556677",
+      "status": "Inactive",
+      "bvn": "08044556677",
+      "gender": "Male",
+      "maritalStatus": "Married",
+      "children": "2",
+      "residence": "Own Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "B.Sc",
+        "status": "Employed",
+        "sector": "Finance",
+        "duration": "4 years",
+        "income": "₦350,000.00 - ₦450,000.00",
+        "repayment": "35,000",
+        "officeEmail": "daniel@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@daniel_king",
+        "facebook": "Daniel King",
+        "instagram": "@daniel_king"
+      },
+      "guarantors": [
+        {
+          "name": "Laura King",
+          "email": "laura@gmail.com",
+          "phoneNumber": "08099887766",
+          "relationship": "Wife"
+        },
+        {
+          "name": "Peter King",
+          "email": "peter.king@gmail.com",
+          "phoneNumber": "08011223344",
+          "relationship": "Brother"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "username": "Sophia Turner",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "sophia.turner@gmail.com",
+      "phoneNumber": "08155667788",
+      "status": "Pending",
+      "bvn": "08155667788",
+      "gender": "Female",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Parent's Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "OND",
+        "status": "Student",
+        "sector": "Education",
+        "duration": "2 years",
+        "income": "₦80,000.00 - ₦120,000.00",
+        "repayment": "8,000",
+        "officeEmail": "sophia@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@sophia_turner",
+        "facebook": "Sophia Turner",
+        "instagram": "@sophia_turner"
+      },
+      "guarantors": [
+        {
+          "name": "Olivia Turner",
+          "email": "olivia@gmail.com",
+          "phoneNumber": "08166778899",
+          "relationship": "Mother"
+        },
+        {
+          "name": "Lucas Turner",
+          "email": "lucas@gmail.com",
+          "phoneNumber": "08177889900",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "username": "Matthew Scott",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "matthew.scott@gmail.com",
+      "phoneNumber": "09055667788",
+      "status": "Blacklisted",
+      "bvn": "09055667788",
+      "gender": "Male",
+      "maritalStatus": "Married",
+      "children": "1",
+      "residence": "Own Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "HND",
+        "status": "Employed",
+        "sector": "Construction",
+        "duration": "7 years",
+        "income": "₦500,000.00 - ₦700,000.00",
+        "repayment": "70,000",
+        "officeEmail": "matthew@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@matthew_scott",
+        "facebook": "Matthew Scott",
+        "instagram": "@matthew_scott"
+      },
+      "guarantors": [
+        {
+          "name": "Ella Scott",
+          "email": "ella@gmail.com",
+          "phoneNumber": "09066778899",
+          "relationship": "Wife"
+        },
+        {
+          "name": "Henry Scott",
+          "email": "henry@gmail.com",
+          "phoneNumber": "09077889900",
+          "relationship": "Brother"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "username": "Olivia Harris",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "olivia.harris@gmail.com",
+      "phoneNumber": "07066778899",
+      "status": "Active",
+      "bvn": "07066778899",
+      "gender": "Female",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Rented Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "B.Sc",
+        "status": "Employed",
+        "sector": "Media",
+        "duration": "2 years",
+        "income": "₦180,000.00 - ₦280,000.00",
+        "repayment": "18,000",
+        "officeEmail": "olivia@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@olivia_harris",
+        "facebook": "Olivia Harris",
+        "instagram": "@olivia_harris"
+      },
+      "guarantors": [
+        {
+          "name": "Mia Harris",
+          "email": "mia@gmail.com",
+          "phoneNumber": "07077889900",
+          "relationship": "Sister"
+        },
+        {
+          "name": "Noah Harris",
+          "email": "noah@gmail.com",
+          "phoneNumber": "07088990011",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "username": "James Walker",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "james.walker@gmail.com",
+      "phoneNumber": "08077889900",
+      "status": "Inactive",
+      "bvn": "08077889900",
+      "gender": "Male",
+      "maritalStatus": "Married",
+      "children": "2",
+      "residence": "Own Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "M.Sc",
+        "status": "Employed",
+        "sector": "Oil & Gas",
+        "duration": "8 years",
+        "income": "₦800,000.00 - ₦1,000,000.00",
+        "repayment": "100,000",
+        "officeEmail": "james@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@james_walker",
+        "facebook": "James Walker",
+        "instagram": "@james_walker"
+      },
+      "guarantors": [
+        {
+          "name": "Emma Walker",
+          "email": "emma.walker@gmail.com",
+          "phoneNumber": "08088990011",
+          "relationship": "Wife"
+        },
+        {
+          "name": "Jack Walker",
+          "email": "jack@gmail.com",
+          "phoneNumber": "08099001122",
+          "relationship": "Brother"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "username": "Ava Martinez",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "ava.martinez@gmail.com",
+      "phoneNumber": "08188990011",
+      "status": "Pending",
+      "bvn": "08188990011",
+      "gender": "Female",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Parent's Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "OND",
+        "status": "Student",
+        "sector": "Education",
+        "duration": "1 year",
+        "income": "₦60,000.00 - ₦90,000.00",
+        "repayment": "6,000",
+        "officeEmail": "ava@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@ava_martinez",
+        "facebook": "Ava Martinez",
+        "instagram": "@ava_martinez"
+      },
+      "guarantors": [
+        {
+          "name": "Sophia Martinez",
+          "email": "sophia.martinez@gmail.com",
+          "phoneNumber": "08199001122",
+          "relationship": "Mother"
+        },
+        {
+          "name": "Liam Martinez",
+          "email": "liam.martinez@gmail.com",
+          "phoneNumber": "08110111213",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "username": "Benjamin Lewis",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "benjamin.lewis@gmail.com",
+      "phoneNumber": "09099001122",
+      "status": "Blacklisted",
+      "bvn": "09099001122",
+      "gender": "Male",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Rented Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "B.Sc",
+        "status": "Unemployed",
+        "sector": "Arts",
+        "duration": "2 years",
+        "income": "₦90,000.00 - ₦120,000.00",
+        "repayment": "9,000",
+        "officeEmail": "benjamin@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@benjamin_lewis",
+        "facebook": "Benjamin Lewis",
+        "instagram": "@benjamin_lewis"
+      },
+      "guarantors": [
+        {
+          "name": "Charlotte Lewis",
+          "email": "charlotte.lewis@gmail.com",
+          "phoneNumber": "09010111213",
+          "relationship": "Sister"
+        },
+        {
+          "name": "Oliver Lewis",
+          "email": "oliver.lewis@gmail.com",
+          "phoneNumber": "09021222324",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "username": "Mia Young",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "mia.young@gmail.com",
+      "phoneNumber": "07010111213",
+      "status": "Active",
+      "bvn": "07010111213",
+      "gender": "Female",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Parent's Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "B.Sc",
+        "status": "Student",
+        "sector": "Education",
+        "duration": "3 years",
+        "income": "₦70,000.00 - ₦110,000.00",
+        "repayment": "7,000",
+        "officeEmail": "mia@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@mia_young",
+        "facebook": "Mia Young",
+        "instagram": "@mia_young"
+      },
+      "guarantors": [
+        {
+          "name": "Ella Young",
+          "email": "ella.young@gmail.com",
+          "phoneNumber": "07021222324",
+          "relationship": "Mother"
+        },
+        {
+          "name": "William Young",
+          "email": "william.young@gmail.com",
+          "phoneNumber": "07032333435",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "username": "William Hall",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "william.hall@gmail.com",
+      "phoneNumber": "08021222324",
+      "status": "Inactive",
+      "bvn": "08021222324",
+      "gender": "Male",
+      "maritalStatus": "Married",
+      "children": "2",
+      "residence": "Own Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "M.Sc",
+        "status": "Employed",
+        "sector": "Telecom",
+        "duration": "6 years",
+        "income": "₦500,000.00 - ₦700,000.00",
+        "repayment": "70,000",
+        "officeEmail": "william@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@william_hall",
+        "facebook": "William Hall",
+        "instagram": "@william_hall"
+      },
+      "guarantors": [
+        {
+          "name": "Amelia Hall",
+          "email": "amelia.hall@gmail.com",
+          "phoneNumber": "08032333435",
+          "relationship": "Wife"
+        },
+        {
+          "name": "James Hall",
+          "email": "james.hall@gmail.com",
+          "phoneNumber": "08043444546",
+          "relationship": "Brother"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "username": "Charlotte Allen",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "charlotte.allen@gmail.com",
+      "phoneNumber": "08132333435",
+      "status": "Pending",
+      "bvn": "08132333435",
+      "gender": "Female",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Rented Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "OND",
+        "status": "Student",
+        "sector": "Education",
+        "duration": "2 years",
+        "income": "₦60,000.00 - ₦100,000.00",
+        "repayment": "6,000",
+        "officeEmail": "charlotte@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@charlotte_allen",
+        "facebook": "Charlotte Allen",
+        "instagram": "@charlotte_allen"
+      },
+      "guarantors": [
+        {
+          "name": "Harper Allen",
+          "email": "harper.allen@gmail.com",
+          "phoneNumber": "08143444546",
+          "relationship": "Mother"
+        },
+        {
+          "name": "Elijah Allen",
+          "email": "elijah.allen@gmail.com",
+          "phoneNumber": "08154545647",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "username": "Henry Wright",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "henry.wright@gmail.com",
+      "phoneNumber": "09043444546",
+      "status": "Blacklisted",
+      "bvn": "09043444546",
+      "gender": "Male",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Parent's Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "B.Sc",
+        "status": "Unemployed",
+        "sector": "Arts",
+        "duration": "1 year",
+        "income": "₦80,000.00 - ₦120,000.00",
+        "repayment": "8,000",
+        "officeEmail": "henry@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@henry_wright",
+        "facebook": "Henry Wright",
+        "instagram": "@henry_wright"
+      },
+      "guarantors": [
+        {
+          "name": "Lily Wright",
+          "email": "lily.wright@gmail.com",
+          "phoneNumber": "09054545647",
+          "relationship": "Sister"
+        },
+        {
+          "name": "Mason Wright",
+          "email": "mason.wright@gmail.com",
+          "phoneNumber": "09065656768",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "username": "Amelia Lopez",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "amelia.lopez@gmail.com",
+      "phoneNumber": "07054545647",
+      "status": "Active",
+      "bvn": "07054545647",
+      "gender": "Female",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Rented Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "B.Sc",
+        "status": "Employed",
+        "sector": "Retail",
+        "duration": "2 years",
+        "income": "₦120,000.00 - ₦180,000.00",
+        "repayment": "12,000",
+        "officeEmail": "amelia@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@amelia_lopez",
+        "facebook": "Amelia Lopez",
+        "instagram": "@amelia_lopez"
+      },
+      "guarantors": [
+        {
+          "name": "Sofia Lopez",
+          "email": "sofia.lopez@gmail.com",
+          "phoneNumber": "07065656768",
+          "relationship": "Sister"
+        },
+        {
+          "name": "Logan Lopez",
+          "email": "logan.lopez@gmail.com",
+          "phoneNumber": "07076767879",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "username": "Elijah Hill",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "elijah.hill@gmail.com",
+      "phoneNumber": "08065656768",
+      "status": "Inactive",
+      "bvn": "08065656768",
+      "gender": "Male",
+      "maritalStatus": "Married",
+      "children": "1",
+      "residence": "Own Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "HND",
+        "status": "Employed",
+        "sector": "Banking",
+        "duration": "5 years",
+        "income": "₦300,000.00 - ₦400,000.00",
+        "repayment": "40,000",
+        "officeEmail": "elijah@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@elijah_hill",
+        "facebook": "Elijah Hill",
+        "instagram": "@elijah_hill"
+      },
+      "guarantors": [
+        {
+          "name": "Grace Hill",
+          "email": "grace.hill@gmail.com",
+          "phoneNumber": "08076767879",
+          "relationship": "Wife"
+        },
+        {
+          "name": "Carter Hill",
+          "email": "carter.hill@gmail.com",
+          "phoneNumber": "08087878980",
+          "relationship": "Brother"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "username": "Harper Green",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "harper.green@gmail.com",
+      "phoneNumber": "08176767879",
+      "status": "Pending",
+      "bvn": "08176767879",
+      "gender": "Female",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Parent's Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "OND",
+        "status": "Student",
+        "sector": "Education",
+        "duration": "1 year",
+        "income": "₦50,000.00 - ₦80,000.00",
+        "repayment": "5,000",
+        "officeEmail": "harper@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@harper_green",
+        "facebook": "Harper Green",
+        "instagram": "@harper_green"
+      },
+      "guarantors": [
+        {
+          "name": "Ella Green",
+          "email": "ella.green@gmail.com",
+          "phoneNumber": "08187878980",
+          "relationship": "Mother"
+        },
+        {
+          "name": "Jackson Green",
+          "email": "jackson.green@gmail.com",
+          "phoneNumber": "08198989091",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "username": "Jack Baker",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "jack.baker@gmail.com",
+      "phoneNumber": "09087878980",
+      "status": "Blacklisted",
+      "bvn": "09087878980",
+      "gender": "Male",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Rented Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "B.Sc",
+        "status": "Unemployed",
+        "sector": "Arts",
+        "duration": "2 years",
+        "income": "₦70,000.00 - ₦110,000.00",
+        "repayment": "7,000",
+        "officeEmail": "jack@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@jack_baker",
+        "facebook": "Jack Baker",
+        "instagram": "@jack_baker"
+      },
+      "guarantors": [
+        {
+          "name": "Lily Baker",
+          "email": "lily.baker@gmail.com",
+          "phoneNumber": "09098989091",
+          "relationship": "Sister"
+        },
+        {
+          "name": "Samuel Baker",
+          "email": "samuel.baker@gmail.com",
+          "phoneNumber": "09010111213",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "username": "Ella Carter",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "ella.carter@gmail.com",
+      "phoneNumber": "07098989091",
+      "status": "Active",
+      "bvn": "07098989091",
+      "gender": "Female",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Parent's Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "B.Sc",
+        "status": "Student",
+        "sector": "Education",
+        "duration": "3 years",
+        "income": "₦60,000.00 - ₦100,000.00",
+        "repayment": "6,000",
+        "officeEmail": "ella@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@ella_carter",
+        "facebook": "Ella Carter",
+        "instagram": "@ella_carter"
+      },
+      "guarantors": [
+        {
+          "name": "Mia Carter",
+          "email": "mia.carter@gmail.com",
+          "phoneNumber": "07010111213",
+          "relationship": "Mother"
+        },
+        {
+          "name": "Lucas Carter",
+          "email": "lucas.carter@gmail.com",
+          "phoneNumber": "07021222324",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "username": "Lucas Nelson",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "lucas.nelson@gmail.com",
+      "phoneNumber": "08010111213",
+      "status": "Inactive",
+      "bvn": "08010111213",
+      "gender": "Male",
+      "maritalStatus": "Married",
+      "children": "2",
+      "residence": "Own Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "M.Sc",
+        "status": "Employed",
+        "sector": "Finance",
+        "duration": "5 years",
+        "income": "₦400,000.00 - ₦600,000.00",
+        "repayment": "60,000",
+        "officeEmail": "lucas@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@lucas_nelson",
+        "facebook": "Lucas Nelson",
+        "instagram": "@lucas_nelson"
+      },
+      "guarantors": [
+        {
+          "name": "Ava Nelson",
+          "email": "ava.nelson@gmail.com",
+          "phoneNumber": "08021222324",
+          "relationship": "Wife"
+        },
+        {
+          "name": "Mason Nelson",
+          "email": "mason.nelson@gmail.com",
+          "phoneNumber": "08032333435",
+          "relationship": "Brother"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "username": "Sofia Perez",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "sofia.perez@gmail.com",
+      "phoneNumber": "08121222324",
+      "status": "Pending",
+      "bvn": "08121222324",
+      "gender": "Female",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Rented Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "OND",
+        "status": "Student",
+        "sector": "Education",
+        "duration": "2 years",
+        "income": "₦70,000.00 - ₦110,000.00",
+        "repayment": "7,000",
+        "officeEmail": "sofia@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@sofia_perez",
+        "facebook": "Sofia Perez",
+        "instagram": "@sofia_perez"
+      },
+      "guarantors": [
+        {
+          "name": "Camila Perez",
+          "email": "camila.perez@gmail.com",
+          "phoneNumber": "08132333435",
+          "relationship": "Mother"
+        },
+        {
+          "name": "Mateo Perez",
+          "email": "mateo.perez@gmail.com",
+          "phoneNumber": "08143444546",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "username": "Mason Roberts",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "mason.roberts@gmail.com",
+      "phoneNumber": "09032333435",
+      "status": "Blacklisted",
+      "bvn": "09032333435",
+      "gender": "Male",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Parent's Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "B.Sc",
+        "status": "Unemployed",
+        "sector": "Arts",
+        "duration": "1 year",
+        "income": "₦60,000.00 - ₦90,000.00",
+        "repayment": "6,000",
+        "officeEmail": "mason@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@mason_roberts",
+        "facebook": "Mason Roberts",
+        "instagram": "@mason_roberts"
+      },
+      "guarantors": [
+        {
+          "name": "Lily Roberts",
+          "email": "lily.roberts@gmail.com",
+          "phoneNumber": "09043444546",
+          "relationship": "Sister"
+        },
+        {
+          "name": "Benjamin Roberts",
+          "email": "benjamin.roberts@gmail.com",
+          "phoneNumber": "09054545647",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "username": "Isabella Turner",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "isabella.turner@gmail.com",
+      "phoneNumber": "07043444546",
+      "status": "Active",
+      "bvn": "07043444546",
+      "gender": "Female",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Rented Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "B.Sc",
+        "status": "Employed",
+        "sector": "Retail",
+        "duration": "2 years",
+        "income": "₦120,000.00 - ₦180,000.00",
+        "repayment": "12,000",
+        "officeEmail": "isabella@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@isabella_turner",
+        "facebook": "Isabella Turner",
+        "instagram": "@isabella_turner"
+      },
+      "guarantors": [
+        {
+          "name": "Mia Turner",
+          "email": "mia.turner@gmail.com",
+          "phoneNumber": "07054545647",
+          "relationship": "Sister"
+        },
+        {
+          "name": "Elijah Turner",
+          "email": "elijah.turner@gmail.com",
+          "phoneNumber": "07065656768",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "username": "Logan Adams",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "logan.adams@gmail.com",
+      "phoneNumber": "08054545647",
+      "status": "Inactive",
+      "bvn": "08054545647",
+      "gender": "Male",
+      "maritalStatus": "Married",
+      "children": "1",
+      "residence": "Own Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "HND",
+        "status": "Employed",
+        "sector": "Banking",
+        "duration": "4 years",
+        "income": "₦250,000.00 - ₦350,000.00",
+        "repayment": "35,000",
+        "officeEmail": "logan@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@logan_adams",
+        "facebook": "Logan Adams",
+        "instagram": "@logan_adams"
+      },
+      "guarantors": [
+        {
+          "name": "Ava Adams",
+          "email": "ava.adams@gmail.com",
+          "phoneNumber": "08065656768",
+          "relationship": "Wife"
+        },
+        {
+          "name": "Mason Adams",
+          "email": "mason.adams@gmail.com",
+          "phoneNumber": "08076767879",
+          "relationship": "Brother"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "username": "Mila Campbell",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "mila.campbell@gmail.com",
+      "phoneNumber": "08165656768",
+      "status": "Pending",
+      "bvn": "08165656768",
+      "gender": "Female",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Parent's Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "OND",
+        "status": "Student",
+        "sector": "Education",
+        "duration": "1 year",
+        "income": "₦50,000.00 - ₦80,000.00",
+        "repayment": "5,000",
+        "officeEmail": "mila@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@mila_campbell",
+        "facebook": "Mila Campbell",
+        "instagram": "@mila_campbell"
+      },
+      "guarantors": [
+        {
+          "name": "Ella Campbell",
+          "email": "ella.campbell@gmail.com",
+          "phoneNumber": "08176767879",
+          "relationship": "Mother"
+        },
+        {
+          "name": "Jackson Campbell",
+          "email": "jackson.campbell@gmail.com",
+          "phoneNumber": "08187878980",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "username": "Jackson Mitchell",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "jackson.mitchell@gmail.com",
+      "phoneNumber": "09076767879",
+      "status": "Blacklisted",
+      "bvn": "09076767879",
+      "gender": "Male",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Rented Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "B.Sc",
+        "status": "Unemployed",
+        "sector": "Arts",
+        "duration": "2 years",
+        "income": "₦70,000.00 - ₦110,000.00",
+        "repayment": "7,000",
+        "officeEmail": "jackson@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@jackson_mitchell",
+        "facebook": "Jackson Mitchell",
+        "instagram": "@jackson_mitchell"
+      },
+      "guarantors": [
+        {
+          "name": "Lily Mitchell",
+          "email": "lily.mitchell@gmail.com",
+          "phoneNumber": "09087878980",
+          "relationship": "Sister"
+        },
+        {
+          "name": "Samuel Mitchell",
+          "email": "samuel.mitchell@gmail.com",
+          "phoneNumber": "09098989091",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "username": "Layla White",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "layla.white@gmail.com",
+      "phoneNumber": "07087878980",
+      "status": "Active",
+      "bvn": "07087878980",
+      "gender": "Female",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Parent's Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "B.Sc",
+        "status": "Student",
+        "sector": "Education",
+        "duration": "3 years",
+        "income": "₦60,000.00 - ₦100,000.00",
+        "repayment": "6,000",
+        "officeEmail": "layla@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@layla_white",
+        "facebook": "Layla White",
+        "instagram": "@layla_white"
+      },
+      "guarantors": [
+        {
+          "name": "Mia White",
+          "email": "mia.white@gmail.com",
+          "phoneNumber": "07098989091",
+          "relationship": "Mother"
+        },
+        {
+          "name": "Lucas White",
+          "email": "lucas.white@gmail.com",
+          "phoneNumber": "07010111213",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "username": "Sebastian Harris",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "sebastian.harris@gmail.com",
+      "phoneNumber": "08098989091",
+      "status": "Inactive",
+      "bvn": "08098989091",
+      "gender": "Male",
+      "maritalStatus": "Married",
+      "children": "2",
+      "residence": "Own Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "M.Sc",
+        "status": "Employed",
+        "sector": "Finance",
+        "duration": "6 years",
+        "income": "₦500,000.00 - ₦700,000.00",
+        "repayment": "70,000",
+        "officeEmail": "sebastian@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@sebastian_harris",
+        "facebook": "Sebastian Harris",
+        "instagram": "@sebastian_harris"
+      },
+      "guarantors": [
+        {
+          "name": "Ava Harris",
+          "email": "ava.harris@gmail.com",
+          "phoneNumber": "08010111213",
+          "relationship": "Wife"
+        },
+        {
+          "name": "Mason Harris",
+          "email": "mason.harris@gmail.com",
+          "phoneNumber": "08021222324",
+          "relationship": "Brother"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "username": "Zoe Clark",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "zoe.clark@gmail.com",
+      "phoneNumber": "08110111213",
+      "status": "Pending",
+      "bvn": "08110111213",
+      "gender": "Female",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Rented Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "OND",
+        "status": "Student",
+        "sector": "Education",
+        "duration": "2 years",
+        "income": "₦70,000.00 - ₦110,000.00",
+        "repayment": "7,000",
+        "officeEmail": "zoe@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@zoe_clark",
+        "facebook": "Zoe Clark",
+        "instagram": "@zoe_clark"
+      },
+      "guarantors": [
+        {
+          "name": "Mia Clark",
+          "email": "mia.clark@gmail.com",
+          "phoneNumber": "08121222324",
+          "relationship": "Mother"
+        },
+        {
+          "name": "Lucas Clark",
+          "email": "lucas.clark@gmail.com",
+          "phoneNumber": "08132333435",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "username": "Levi Lewis",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "levi.lewis@gmail.com",
+      "phoneNumber": "09021222324",
+      "status": "Blacklisted",
+      "bvn": "09021222324",
+      "gender": "Male",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Parent's Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "B.Sc",
+        "status": "Unemployed",
+        "sector": "Arts",
+        "duration": "1 year",
+        "income": "₦60,000.00 - ₦90,000.00",
+        "repayment": "6,000",
+        "officeEmail": "levi@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@levi_lewis",
+        "facebook": "Levi Lewis",
+        "instagram": "@levi_lewis"
+      },
+      "guarantors": [
+        {
+          "name": "Lily Lewis",
+          "email": "lily.lewis@gmail.com",
+          "phoneNumber": "09032333435",
+          "relationship": "Sister"
+        },
+        {
+          "name": "Benjamin Lewis",
+          "email": "benjamin.lewis@gmail.com",
+          "phoneNumber": "09043444546",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "username": "Chloe King",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "chloe.king@gmail.com",
+      "phoneNumber": "07032333435",
+      "status": "Active",
+      "bvn": "07032333435",
+      "gender": "Female",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Rented Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "B.Sc",
+        "status": "Employed",
+        "sector": "Retail",
+        "duration": "2 years",
+        "income": "₦120,000.00 - ₦180,000.00",
+        "repayment": "12,000",
+        "officeEmail": "chloe@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@chloe_king",
+        "facebook": "Chloe King",
+        "instagram": "@chloe_king"
+      },
+      "guarantors": [
+        {
+          "name": "Mia King",
+          "email": "mia.king@gmail.com",
+          "phoneNumber": "07043444546",
+          "relationship": "Sister"
+        },
+        {
+          "name": "Elijah King",
+          "email": "elijah.king@gmail.com",
+          "phoneNumber": "07054545647",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "username": "Alexander Lee",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "alexander.lee@gmail.com",
+      "phoneNumber": "08043444546",
+      "status": "Inactive",
+      "bvn": "08043444546",
+      "gender": "Male",
+      "maritalStatus": "Married",
+      "children": "1",
+      "residence": "Own Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "HND",
+        "status": "Employed",
+        "sector": "Banking",
+        "duration": "4 years",
+        "income": "₦250,000.00 - ₦350,000.00",
+        "repayment": "35,000",
+        "officeEmail": "alexander@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@alexander_lee",
+        "facebook": "Alexander Lee",
+        "instagram": "@alexander_lee"
+      },
+      "guarantors": [
+        {
+          "name": "Ava Lee",
+          "email": "ava.lee@gmail.com",
+          "phoneNumber": "08054545647",
+          "relationship": "Wife"
+        },
+        {
+          "name": "Mason Lee",
+          "email": "mason.lee@gmail.com",
+          "phoneNumber": "08065656768",
+          "relationship": "Brother"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "username": "Scarlett Walker",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "scarlett.walker@gmail.com",
+      "phoneNumber": "08154545647",
+      "status": "Pending",
+      "bvn": "08154545647",
+      "gender": "Female",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Parent's Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "OND",
+        "status": "Student",
+        "sector": "Education",
+        "duration": "1 year",
+        "income": "₦50,000.00 - ₦80,000.00",
+        "repayment": "5,000",
+        "officeEmail": "scarlett@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@scarlett_walker",
+        "facebook": "Scarlett Walker",
+        "instagram": "@scarlett_walker"
+      },
+      "guarantors": [
+        {
+          "name": "Ella Walker",
+          "email": "ella.walker@gmail.com",
+          "phoneNumber": "08165656768",
+          "relationship": "Mother"
+        },
+        {
+          "name": "Jackson Walker",
+          "email": "jackson.walker@gmail.com",
+          "phoneNumber": "08176767879",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "username": "Ethan Young",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "ethan.young@gmail.com",
+      "phoneNumber": "09065656768",
+      "status": "Blacklisted",
+      "bvn": "09065656768",
+      "gender": "Male",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Rented Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "B.Sc",
+        "status": "Unemployed",
+        "sector": "Arts",
+        "duration": "2 years",
+        "income": "₦70,000.00 - ₦110,000.00",
+        "repayment": "7,000",
+        "officeEmail": "ethan@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@ethan_young",
+        "facebook": "Ethan Young",
+        "instagram": "@ethan_young"
+      },
+      "guarantors": [
+        {
+          "name": "Lily Young",
+          "email": "lily.young@gmail.com",
+          "phoneNumber": "09076767879",
+          "relationship": "Sister"
+        },
+        {
+          "name": "Benjamin Young",
+          "email": "benjamin.young@gmail.com",
+          "phoneNumber": "09087878980",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "username": "Penelope Allen",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "penelope.allen@gmail.com",
+      "phoneNumber": "07076767879",
+      "status": "Active",
+      "bvn": "07076767879",
+      "gender": "Female",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Parent's Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "B.Sc",
+        "status": "Student",
+        "sector": "Education",
+        "duration": "3 years",
+        "income": "₦60,000.00 - ₦100,000.00",
+        "repayment": "6,000",
+        "officeEmail": "penelope@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@penelope_allen",
+        "facebook": "Penelope Allen",
+        "instagram": "@penelope_allen"
+      },
+      "guarantors": [
+        {
+          "name": "Mia Allen",
+          "email": "mia.allen@gmail.com",
+          "phoneNumber": "07087878980",
+          "relationship": "Mother"
+        },
+        {
+          "name": "Lucas Allen",
+          "email": "lucas.allen@gmail.com",
+          "phoneNumber": "07098989091",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "username": "Grayson King",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "grayson.king@gmail.com",
+      "phoneNumber": "08087878980",
+      "status": "Inactive",
+      "bvn": "08087878980",
+      "gender": "Male",
+      "maritalStatus": "Married",
+      "children": "2",
+      "residence": "Own Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "M.Sc",
+        "status": "Employed",
+        "sector": "Finance",
+        "duration": "5 years",
+        "income": "₦400,000.00 - ₦600,000.00",
+        "repayment": "60,000",
+        "officeEmail": "grayson@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@grayson_king",
+        "facebook": "Grayson King",
+        "instagram": "@grayson_king"
+      },
+      "guarantors": [
+        {
+          "name": "Ava King",
+          "email": "ava.king@gmail.com",
+          "phoneNumber": "08098989091",
+          "relationship": "Wife"
+        },
+        {
+          "name": "Mason King",
+          "email": "mason.king@gmail.com",
+          "phoneNumber": "08110111213",
+          "relationship": "Brother"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "username": "Victoria Scott",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "victoria.scott@gmail.com",
+      "phoneNumber": "08198989091",
+      "status": "Pending",
+      "bvn": "08198989091",
+      "gender": "Female",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Rented Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "OND",
+        "status": "Student",
+        "sector": "Education",
+        "duration": "2 years",
+        "income": "₦70,000.00 - ₦110,000.00",
+        "repayment": "7,000",
+        "officeEmail": "victoria@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@victoria_scott",
+        "facebook": "Victoria Scott",
+        "instagram": "@victoria_scott"
+      },
+      "guarantors": [
+        {
+          "name": "Mia Scott",
+          "email": "mia.scott@gmail.com",
+          "phoneNumber": "08110111213",
+          "relationship": "Mother"
+        },
+        {
+          "name": "Lucas Scott",
+          "email": "lucas.scott@gmail.com",
+          "phoneNumber": "08121222324",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "username": "Julian Carter",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "julian.carter@gmail.com",
+      "phoneNumber": "09010111213",
+      "status": "Blacklisted",
+      "bvn": "09010111213",
+      "gender": "Male",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Parent's Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "B.Sc",
+        "status": "Unemployed",
+        "sector": "Arts",
+        "duration": "1 year",
+        "income": "₦60,000.00 - ₦90,000.00",
+        "repayment": "6,000",
+        "officeEmail": "julian@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@julian_carter",
+        "facebook": "Julian Carter",
+        "instagram": "@julian_carter"
+      },
+      "guarantors": [
+        {
+          "name": "Lily Carter",
+          "email": "lily.carter@gmail.com",
+          "phoneNumber": "09021222324",
+          "relationship": "Sister"
+        },
+        {
+          "name": "Benjamin Carter",
+          "email": "benjamin.carter@gmail.com",
+          "phoneNumber": "09032333435",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "username": "Hazel Nelson",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "hazel.nelson@gmail.com",
+      "phoneNumber": "07021222324",
+      "status": "Active",
+      "bvn": "07021222324",
+      "gender": "Female",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Rented Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "B.Sc",
+        "status": "Employed",
+        "sector": "Retail",
+        "duration": "2 years",
+        "income": "₦120,000.00 - ₦180,000.00",
+        "repayment": "12,000",
+        "officeEmail": "hazel@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@hazel_nelson",
+        "facebook": "Hazel Nelson",
+        "instagram": "@hazel_nelson"
+      },
+      "guarantors": [
+        {
+          "name": "Mia Nelson",
+          "email": "mia.nelson@gmail.com",
+          "phoneNumber": "07032333435",
+          "relationship": "Sister"
+        },
+        {
+          "name": "Elijah Nelson",
+          "email": "elijah.nelson@gmail.com",
+          "phoneNumber": "07043444546",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "username": "Luke Perez",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "luke.perez@gmail.com",
+      "phoneNumber": "08032333435",
+      "status": "Inactive",
+      "bvn": "08032333435",
+      "gender": "Male",
+      "maritalStatus": "Married",
+      "children": "1",
+      "residence": "Own Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "HND",
+        "status": "Employed",
+        "sector": "Banking",
+        "duration": "4 years",
+        "income": "₦250,000.00 - ₦350,000.00",
+        "repayment": "35,000",
+        "officeEmail": "luke@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@luke_perez",
+        "facebook": "Luke Perez",
+        "instagram": "@luke_perez"
+      },
+      "guarantors": [
+        {
+          "name": "Ava Perez",
+          "email": "ava.perez@gmail.com",
+          "phoneNumber": "08043444546",
+          "relationship": "Wife"
+        },
+        {
+          "name": "Mason Perez",
+          "email": "mason.perez@gmail.com",
+          "phoneNumber": "08054545647",
+          "relationship": "Brother"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "username": "Aurora Campbell",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "aurora.campbell@gmail.com",
+      "phoneNumber": "08143444546",
+      "status": "Pending",
+      "bvn": "08143444546",
+      "gender": "Female",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Parent's Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "OND",
+        "status": "Student",
+        "sector": "Education",
+        "duration": "1 year",
+        "income": "₦50,000.00 - ₦80,000.00",
+        "repayment": "5,000",
+        "officeEmail": "aurora@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@aurora_campbell",
+        "facebook": "Aurora Campbell",
+        "instagram": "@aurora_campbell"
+      },
+      "guarantors": [
+        {
+          "name": "Ella Campbell",
+          "email": "ella.campbell@gmail.com",
+          "phoneNumber": "08154545647",
+          "relationship": "Mother"
+        },
+        {
+          "name": "Jackson Campbell",
+          "email": "jackson.campbell@gmail.com",
+          "phoneNumber": "08165656768",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "username": "Samuel Mitchell",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "samuel.mitchell@gmail.com",
+      "phoneNumber": "09054545647",
+      "status": "Blacklisted",
+      "bvn": "09054545647",
+      "gender": "Male",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Rented Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "B.Sc",
+        "status": "Unemployed",
+        "sector": "Arts",
+        "duration": "2 years",
+        "income": "₦70,000.00 - ₦110,000.00",
+        "repayment": "7,000",
+        "officeEmail": "samuel@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@samuel_mitchell",
+        "facebook": "Samuel Mitchell",
+        "instagram": "@samuel_mitchell"
+      },
+      "guarantors": [
+        {
+          "name": "Lily Mitchell",
+          "email": "lily.mitchell@gmail.com",
+          "phoneNumber": "09065656768",
+          "relationship": "Sister"
+        },
+        {
+          "name": "Benjamin Mitchell",
+          "email": "benjamin.mitchell@gmail.com",
+          "phoneNumber": "09076767879",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "username": "Stella White",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "stella.white@gmail.com",
+      "phoneNumber": "07065656768",
+      "status": "Active",
+      "bvn": "07065656768",
+      "gender": "Female",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Parent's Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "B.Sc",
+        "status": "Student",
+        "sector": "Education",
+        "duration": "3 years",
+        "income": "₦60,000.00 - ₦100,000.00",
+        "repayment": "6,000",
+        "officeEmail": "stella@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@stella_white",
+        "facebook": "Stella White",
+        "instagram": "@stella_white"
+      },
+      "guarantors": [
+        {
+          "name": "Mia White",
+          "email": "mia.white@gmail.com",
+          "phoneNumber": "07076767879",
+          "relationship": "Mother"
+        },
+        {
+          "name": "Lucas White",
+          "email": "lucas.white@gmail.com",
+          "phoneNumber": "07087878980",
+          "relationship": "Father"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "username": "Wyatt Harris",
+      "organization": "Lendstar",
+      "amount": "300,000",
+      "bank": "First Bank",
+      "accountNumber": "1234567890",
+      "email": "wyatt.harris@gmail.com",
+      "phoneNumber": "08010111214",
+      "status": "Inactive",
+      "bvn": "08010111214",
+      "gender": "Male",
+      "maritalStatus": "Single",
+      "children": "None",
+      "residence": "Rented Apartment",
+      "dateJoined": "Apr 10 ,2020 10:00AM",
+      "education": {
+        "level": "B.Sc",
+        "status": "Unemployed",
+        "sector": "Arts",
+        "duration": "1 year",
+        "income": "₦60,000.00 - ₦90,000.00",
+        "repayment": "6,000",
+        "officeEmail": "wyatt@lendsqr.com"
+      },
+      "socials": {
+        "twitter": "@wyatt_harris",
+        "facebook": "Wyatt Harris",
+        "instagram": "@wyatt_harris"
+      },
+      "guarantors": [
+        {
+          "name": "Lily Harris",
+          "email": "lily.harris@gmail.com",
+          "phoneNumber": "08021222325",
+          "relationship": "Sister"
+        },
+        {
+          "name": "Benjamin Harris",
+          "email": "benjamin.harris@gmail.com",
+          "phoneNumber": "08032333436",
+          "relationship": "Father"
+        }
+      ]
     }
   ]
 }
