@@ -1,6 +1,6 @@
 'use client'
 
-import styles from './UserFilters.module.scss'
+import styles from './userFilters.module.scss'
 import { useState } from 'react'
 export default function UserFilters({ onFilter }: { onFilter: (filters: any) => void }) {
   const [filters, setFilters] = useState({

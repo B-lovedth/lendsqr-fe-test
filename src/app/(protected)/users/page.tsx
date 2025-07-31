@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import UserCards from "./userCards";
-import UserFilters from "./userFilters";
-import UsersTable from "./usersTable";
+import UserCards from "./user-cards/userCards";
+import UserFilters from "./user-filters/userFilters";
+import UsersTable from "./user-table/usersTable";
 import styles from "./page.module.scss";
 import { UserDetail } from "@/types/user";
 const UsersPage=()=> {
