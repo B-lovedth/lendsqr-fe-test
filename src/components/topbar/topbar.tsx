@@ -10,12 +10,6 @@ interface TopbarProps {
   onMenuClick: () => void;
 }
 const Topbar: React.FC<TopbarProps> = ({onMenuClick}:TopbarProps) => {
-
-
-      
-
- 
-
   return (
    <header className={styles.topbar}>
       <div className={styles.left}>
