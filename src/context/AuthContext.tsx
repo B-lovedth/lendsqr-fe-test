@@ -24,7 +24,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
 
   const login = async (email: string, password: string) => {
     const res = await fetch(
-      `http://localhost:3001/users?email=${email}&password=${password}`
+      `https://688beb07cd9d22dda5cba641.mockapi.io/userAuth?email=${email}&password=${password}`
     );
     const data = await res.json();
     if (!res.ok) {

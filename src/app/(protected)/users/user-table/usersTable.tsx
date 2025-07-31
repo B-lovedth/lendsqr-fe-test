@@ -16,8 +16,8 @@ export default function UsersTable({ users, onFilterToggle }: UsersTableProps) {
 const [openActionUserId, setOpenActionUserId] = useState<string | null>(null)
   const router = useRouter();
    const changeStatus = async (status: string, id:string) => {
-    const res = await fetch(`http://localhost:3001/userDetails/${id}`, {
-      method: "PATCH",
+    const res = await fetch(`https://688beb07cd9d22dda5cba641.mockapi.io/Users/${id}`, {
+      method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ status }),
     });

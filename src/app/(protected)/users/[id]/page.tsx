@@ -25,7 +25,7 @@ export default function UserDetailsPage() {
   };
   useEffect(() => {
     const fetchUser = async () => {
-      const res = await fetch(`http://localhost:3001/userDetails/${id}`);
+      const res = await fetch(`https://688beb07cd9d22dda5cba641.mockapi.io/Users/${id}`);
       const data = await res.json();
       setUser(data);
     };
@@ -34,8 +34,8 @@ export default function UserDetailsPage() {
 
   if (!user) return <p className={styles.loading}>Loading...</p>;
   const changeStatus = async (status: string) => {
-    const res = await fetch(`http://localhost:3001/userDetails/${user.id}`, {
-      method: "PATCH",
+    const res = await fetch(`https://688beb07cd9d22dda5cba641.mockapi.io/Users/${user.id}`, {
+      method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ status }),
     });

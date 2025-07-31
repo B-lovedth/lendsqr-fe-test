@@ -15,7 +15,7 @@ const UsersPage=()=> {
   const [users, setUsers] = useState<UserDetail[]>([]);
   const fetchUsers = async () => {
     try {
-      const res = await fetch("http://localhost:3001/userDetails");
+      const res = await fetch("https://688beb07cd9d22dda5cba641.mockapi.io/Users");
       const data = await res.json();
       setUsers(data);
     } catch (err) {
