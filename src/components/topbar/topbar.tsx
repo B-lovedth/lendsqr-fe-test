@@ -4,14 +4,17 @@ import styles from "./topbar.module.scss";
 import Link from "next/link";
 import SearchBar from "../layout/searchbar/searchbar";
 import ProfileDropdown from "../layout/profileDropdown/profileDropdown";
-const Topbar: React.FC = () => {
-  const { user, logout } = useAuth();
-  const router = useRouter();
+import { FiMenu } from "react-icons/fi";
 
-  const handleLogout = () => {
-    logout();
-    router.push('/login');
-  };
+interface TopbarProps {
+  onMenuClick: () => void;
+}
+const Topbar: React.FC<TopbarProps> = ({onMenuClick}:TopbarProps) => {
+
+
+      
+
+ 
 
   return (
    <header className={styles.topbar}>
@@ -30,6 +33,9 @@ const Topbar: React.FC = () => {
         </Link>
         <ProfileDropdown />
       </div>
+      <button className={styles.menuButton} onClick={onMenuClick}>
+        <FiMenu />
+      </button>
     </header>
   );
 }
