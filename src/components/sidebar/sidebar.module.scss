@@ -3,8 +3,10 @@
   background-color: #fff;
   display: flex;
   flex-direction: column;
+  padding: 1rem 0 2rem;
   scrollbar-width: 1px;
   scrollbar-color: #f6f6f6 transparent;
+
 }
 .logo {
   font-weight: bold;
@@ -14,6 +16,34 @@
 
 .section {
   margin-bottom: 1.5rem;
+  
+  .dropdown {
+  position: relative;
+}
+
+.dropdownToggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: none;
+  border: none;
+  font: inherit;
+  padding: 0.75rem 2rem;
+  width: 100%;
+  text-align: left;
+  color: #444;
+  cursor: pointer;
+}
+
+.dropdownMenu {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-left: 0.5rem;
+  border-left: 2px solid #eee;
+}
+
 }
 
 .sectionTitle {
@@ -30,6 +60,12 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  button{
+    background:transparent;
+    border: none;
+    font: inherit;
+    cursor:pointer;
+  }
 }
 
 .link {
