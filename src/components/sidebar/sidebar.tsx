@@ -8,7 +8,6 @@ import { useState } from "react";
 
 const Sidebar = ({ action }: {action:()=>void}) => {
   const pathname = usePathname();
-  const { logout } = useAuth();
   const [isDropdown, setIsDropdown] = useState(false);
   return (
     <aside className={styles.sidebar}>

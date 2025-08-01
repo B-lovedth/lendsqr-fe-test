@@ -4,13 +4,17 @@ import {sidebarSections  } from "@/constants/navlinks";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { FiX } from "react-icons/fi";
+import Icon from "../layout/icon";
+import { useState } from "react";
 
 interface MobileSidebarProps {
   onClose: () => void;
+  action:()=>void
 }
-
-export default function MobileSidebar({ onClose }: MobileSidebarProps) {
+const MobileSidebar=({ onClose, action }: MobileSidebarProps)=> {
   const pathname = usePathname();
+    const [isDropdown, setIsDropdown] = useState(false);
+  
 
   return (
     <aside className={styles.mobileSidebar}>
@@ -24,6 +28,38 @@ export default function MobileSidebar({ onClose }: MobileSidebarProps) {
           <FiX />
         </button>
       </div>
+      <div className={styles.section}>
+  <div className={styles.dropdown}>
+    <button className={styles.dropdownToggle}
+      onClick={() => setIsDropdown(!isDropdown)}>
+      <Icon
+        src="/icons/briefcase.png"
+        alt="briefcase"
+        size={20}
+        className={styles.icon}
+      />
+      Select an Organization
+    </button>
+    {isDropdown && (
+    <div className={styles.dropdownMenu}>
+      <Link
+        href="#"
+        className={`${styles.link} styles.active : ""
+        }`}
+      >
+        Lendsqr
+      </Link>
+      <Link
+        href="#"
+        className={`${styles.link} styles.active : ""
+        }`}
+      >
+        GreatCorp
+      </Link>
+    </div>
+    )}
+  </div>
+</div>
 
       {sidebarSections.map((section, i) => (
         <div key={i} className={styles.section}>
@@ -43,6 +79,26 @@ export default function MobileSidebar({ onClose }: MobileSidebarProps) {
           ))}
         </div>
       ))}
+      <div className={styles.section}>
+        <div className={styles.linkGroup}>
+          <button
+            onClick={action}
+            className={`${styles.link} ${
+              pathname === "/profile" ? styles.active : ""
+            }`}
+          >
+            <Icon
+              src="/icons/sign-out.png"
+              alt="Profile"
+              size={20}
+              className={styles.icon}
+            />
+            Logout
+          </button>
+        </div>
+      </div>
     </aside>
   );
 }
+
+export default MobileSidebar;
