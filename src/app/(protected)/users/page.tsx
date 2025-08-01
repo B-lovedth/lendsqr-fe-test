@@ -6,7 +6,7 @@ import UserFilters from "./user-filters/userFilters";
 import UsersTable from "./user-table/usersTable";
 import styles from "./page.module.scss";
 import { UserDetail } from "@/types/user";
-const UsersPage=()=> {
+const UsersPage = () => {
   const [filters, setFilters] = useState<any>({});
   const [page, setPage] = useState(1);
   const [showFilters, setShowFilters] = useState(false);
@@ -15,7 +15,9 @@ const UsersPage=()=> {
   const [users, setUsers] = useState<UserDetail[]>([]);
   const fetchUsers = async () => {
     try {
-      const res = await fetch("https://688beb07cd9d22dda5cba641.mockapi.io/Users");
+      const res = await fetch(
+        "https://688beb07cd9d22dda5cba641.mockapi.io/Users"
+      );
       const data = await res.json();
       setUsers(data);
     } catch (err) {
@@ -109,7 +111,22 @@ const UsersPage=()=> {
             out of {filtered.length}
           </div>
 
-          <div style={{ display: "flex", gap: "0.5rem" }}>
+          <div style={{ display: "flex", gap: "0.5rem", alignItems: "center" }}>
+            <button
+              onClick={() => setPage((prev) => Math.max(prev - 1, 1))}
+              disabled={page === 1}
+              style={{
+                padding: "6px 10px",
+                background: "#eee",
+                color: "#000",
+                border: "none",
+                borderRadius: 4,
+                cursor: page === 1 ? "not-allowed" : "pointer",
+              }}
+            >
+              {"<"}
+            </button>
+
             {getPaginationPages(page, totalPages).map((p, i) => (
               <button
                 key={i}
@@ -117,8 +134,9 @@ const UsersPage=()=> {
                 disabled={p === "..."}
                 style={{
                   padding: "6px 10px",
-                  background: page === p ? "#39cdcc" : "#eee",
-                  color: page === p ? "#fff" : "#000",
+                  fontWeight: page === p ? "Bold" : "400",
+                  background:"transparent",
+                  color:"#000",
                   border: "none",
                   borderRadius: 4,
                   cursor: p === "..." ? "default" : "pointer",
@@ -127,11 +145,26 @@ const UsersPage=()=> {
                 {p}
               </button>
             ))}
+
+            <button
+              onClick={() => setPage((prev) => Math.min(prev + 1, totalPages))}
+              disabled={page === totalPages}
+              style={{
+                padding: "6px 10px",
+                background: "#eee",
+                color: "#000",
+                border: "none",
+                borderRadius: 4,
+                cursor: page === totalPages ? "not-allowed" : "pointer",
+              }}
+            >
+              {">"}
+            </button>
           </div>
         </div>
       </div>
     </section>
   );
-}
+};
 
 export default UsersPage;
