@@ -16,6 +16,9 @@ const ProtectedLayout = ({ children }: { children: React.ReactNode }) => {
     setShowModal(false);
     logout(); 
   };
+  const handleCloseModal = () => {
+    setShowModal(false);
+  }
   const router = useRouter();
   const [isMobileSidebarOpen, setIsMobileSidebarOpen] = useState(false);
 
@@ -44,7 +47,7 @@ const ProtectedLayout = ({ children }: { children: React.ReactNode }) => {
         {showModal && (
         <LogoutModal
           onConfirm={handleLogout}
-          onCancel={() => setShowModal(false)}
+          onCancel={handleCloseModal}
         />
       )}
     </>
