@@ -35,7 +35,7 @@ const Login=()=> {
       
       <div className={styles.Wrapper}>
         <div className={styles.loginImage}>
-            <img src="/img/login.svg" alt="Login Illustration" />
+            <img src="/img/logIn.svg" alt="Login Illustration" />
         </div>
         <div className={styles.right}>
             <h1 className={styles.title}>Welcome!</h1>
