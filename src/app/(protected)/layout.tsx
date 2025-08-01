@@ -42,7 +42,7 @@ const ProtectedLayout = ({ children }: { children: React.ReactNode }) => {
       </div>
 
       {isMobileSidebarOpen && (
-        <MobileSidebar onClose={() => setIsMobileSidebarOpen(false)} />
+        <MobileSidebar  action={()=> setShowModal(true)}  onClose={() => setIsMobileSidebarOpen(false)} />
       )}
         {showModal && (
         <LogoutModal
