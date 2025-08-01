@@ -5,11 +5,13 @@ import { useParams, useRouter } from "next/navigation";
 import styles from "./details.module.scss";
 import { UserDetail } from "@/types/user";
 import { BsArrowLeft } from "react-icons/bs";
+import UserDetailsSkeleton from "@/components/layout/skeletonLoader/UserDetailsSkeleton";
 
 export default function UserDetailsPage() {
   const { id } = useParams();
   const router = useRouter();
   const [user, setUser] = useState<UserDetail | null>(null);
+  const [selectedTab, setSelectedTab] = useState("General Details");
 
   const tabs = [
     "General Details",
@@ -19,7 +21,6 @@ export default function UserDetailsPage() {
     "Savings",
     "App and System",
   ];
-  const [selectedTab, setSelectedTab] = useState("General Details");
   const handleTabClick = (tab: string) => {
     setSelectedTab(tab);
   };
@@ -32,7 +33,8 @@ export default function UserDetailsPage() {
     fetchUser();
   }, [id]);
 
-  if (!user) return <p className={styles.loading}>Loading...</p>;
+  if (!user) return <UserDetailsSkeleton/>
+  
   const changeStatus = async (status: string) => {
     const res = await fetch(`https://688beb07cd9d22dda5cba641.mockapi.io/Users/${user.id}`, {
       method: "PUT",
@@ -51,28 +53,7 @@ export default function UserDetailsPage() {
       <div className={styles.top}>
         <h2>User Details</h2>
         <div className={styles.actions}>
-          {/* {
-                user.status !== "Blacklisted" && (
-                    <button
-                    className={styles.blacklist}
-                    onClick={() => {
-                        changeStatus("Blacklisted");
-                    }}
-                    >
-                    Blacklist User
-                    </button>
-                )
-            }
-            {user.status !== "Active" && (
-              <button
-                className={styles.activate}
-                onClick={() => {
-                  changeStatus("Active");
-                }}
-              >
-                Activate User
-              </button>
-            )} */}
+         
           <button
             className={styles.blacklist}
             onClick={() => {
