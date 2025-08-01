@@ -5,11 +5,11 @@ import Icon from "../layout/icon";
 import Link from "next/link";
 import { useAuth } from "@/context/AuthContext";
 import { useState } from "react";
-const Sidebar=()=> {
+
+const Sidebar = ({ action }: {action:()=>void}) => {
   const pathname = usePathname();
   const { logout } = useAuth();
   const [isDropdown, setIsDropdown] = useState(false);
-
   return (
     <aside className={styles.sidebar}>
      <div className={styles.section}>
@@ -93,7 +93,7 @@ const Sidebar=()=> {
       <div className={styles.section}>
         <div className={styles.linkGroup}>
           <button
-            onClick={() => logout()}
+            onClick={action}
             className={`${styles.link} ${
               pathname === "/profile" ? styles.active : ""
             }`}

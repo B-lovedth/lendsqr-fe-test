@@ -7,9 +7,15 @@ import Topbar from "@/components/topbar/topbar";
 import { useAuth } from "@/context/AuthContext";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
+import LogoutModal from "@/components/logoutModal/logoutModal";
 
 const ProtectedLayout = ({ children }: { children: React.ReactNode }) => {
-  const { user, loading } = useAuth();
+  const { user, loading,logout } = useAuth();
+  const [showModal, setShowModal] = useState(false);
+  const handleLogout = () => {
+    setShowModal(false);
+    logout(); 
+  };
   const router = useRouter();
   const [isMobileSidebarOpen, setIsMobileSidebarOpen] = useState(false);
 
@@ -26,7 +32,7 @@ const ProtectedLayout = ({ children }: { children: React.ReactNode }) => {
       <Topbar onMenuClick={() => setIsMobileSidebarOpen(true)} />
       <div className={style.layout}>
         <div className={style.sidebarWrapper}>
-          <Sidebar />
+          <Sidebar  action={()=> setShowModal(true)}/>
         </div>
 
         <main>{children}</main>
@@ -34,6 +40,12 @@ const ProtectedLayout = ({ children }: { children: React.ReactNode }) => {
 
       {isMobileSidebarOpen && (
         <MobileSidebar onClose={() => setIsMobileSidebarOpen(false)} />
+      )}
+        {showModal && (
+        <LogoutModal
+          onConfirm={handleLogout}
+          onCancel={() => setShowModal(false)}
+        />
       )}
     </>
   );
