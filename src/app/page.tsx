@@ -7,7 +7,7 @@ const Home=()=> {
   const router = useRouter()
 
   useEffect(() => {
-    router.replace('/users') // Redirect to the Users page
+    router.replace('/dashboard') // Redirect to the Users page
   }, [])
 
   return null
