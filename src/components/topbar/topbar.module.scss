@@ -43,8 +43,11 @@ display:none
   }
 
 
+  
+}
 @media(min-width:960px){
   .center {
+  display: block;
   flex: 1;
   max-width: 500px;
   margin: 0 2rem;
@@ -53,8 +56,6 @@ display:none
   display: flex;
   align-items: center;
   gap: 1.25rem;
-}
-
 }
 }
 }

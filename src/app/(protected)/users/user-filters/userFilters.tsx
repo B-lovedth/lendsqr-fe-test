@@ -27,7 +27,7 @@ export default function UserFilters({ onFilter }: { onFilter: (filters: any) => 
       <p>Organization </p> 
       <select name="organization" value={filters.organization} onChange={handleChange}>
         <option value="">Select</option>
-        <option value="Lendsqr">Lendsqr</option>
+        <option value="Lendsqr">Lendstar</option>
         <option value="Irorun">Irorun</option>
       </select>
     </label>
