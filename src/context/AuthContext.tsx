@@ -14,11 +14,13 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   const [user, setUser] = useState<string | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
   useEffect(() => {
-    const storedUser = localStorage.getItem("user");   // Check localStorage for user's email
+   if (typeof window !== "undefined") {
+    const storedUser = localStorage.getItem("user");
     if (storedUser) {
-      setUser(storedUser);  // If found, set user state
+      setUser(storedUser);
     }
-    setLoading(false);  // Set loading to false after checking localStorage
+  }
+  setLoading(false); // Set loading to false after checking localStorage
   }, []);
   
 
@@ -31,15 +33,16 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
       console.error("Login failed:", data);
       return false; // Return false if login fails
     }
-    if (data.length) {
-      setUser(data.email);
-      localStorage.setItem("user", email);
-      return true;
-    }
+   if (data.length) {
+  const foundUser = data[0]; // Get the first matched user
+  setUser(foundUser.email);  // Save correct email
+  localStorage.setItem("user", foundUser.email);
+  return true;
+}
+
     // console.log(data)
     return false;
   };
-
   const logout = () => {
     setUser(null);
     localStorage.removeItem("user");
