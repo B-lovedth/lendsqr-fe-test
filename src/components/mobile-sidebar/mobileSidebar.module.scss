@@ -75,14 +75,16 @@
 }
 
 .link {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  padding: 0.6rem 0;
-  font-size: 15px;
-  text-decoration: none;
-  color: #333;
-  transition: 0.2s ease;
+     color: #333;
+    align-items: center;
+    background: none;
+    gap: .75rem;
+    border: none;
+    padding: .6rem 0;
+    font-size: 15px;
+    text-decoration: none;
+    transition: all .2s;
+    display: flex;
 
   &:hover {
     color: #39cdcc;
